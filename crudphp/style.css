@@ -1,0 +1,29 @@
+.table-style {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+
+.table-style thead tr {
+    background-color: #99b3ff;
+    text-align: left;
+}
+
+.table-style th,
+.table-style td {
+    padding: 10px 15px;
+}
+
+.table-style tr:nth-of-type(even) {
+    background-color: #eeeeee;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: rgb(187, 232, 252);
+    border-radius: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
